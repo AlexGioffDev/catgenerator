@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100lvw;
+  height: 100lvh;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(180deg, #F3B5E9 0%, rgba(175, 137, 197, 0.74) 54.69%, rgba(65, 36, 128, 0.50) 100%);
+}
